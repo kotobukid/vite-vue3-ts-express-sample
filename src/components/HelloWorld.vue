@@ -29,7 +29,7 @@ h1 {{ msg }}
     button(type="button" @click="count++") count is {{ count }}
     button(type="button" @click="reset") Reset
     p
-        span Edit!&nbsp;
+        span Edit!!!&nbsp;
         code components/HelloWorld.vue
         span to test HMR
 

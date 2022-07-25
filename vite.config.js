@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        // pugmain: resolve(__dirname, 'views/index.pug'),
         nested: resolve(__dirname, 'nested/index.html')
       }
     }
